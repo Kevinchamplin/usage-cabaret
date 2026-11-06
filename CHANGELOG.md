@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+### Added (2026-11-06, repository-discovery) [0h]
+
+- Added a sample dashboard preview and clearer wording for people searching for Claude Code and Codex quota tools.
+
 ## [1.0.0] - 2026-11-06
 
 ### Added (2026-11-06, open-source) [0h]

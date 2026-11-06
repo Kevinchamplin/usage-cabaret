@@ -1,8 +1,12 @@
 # Usage Cabaret
 
-Watch your Claude Code and Codex quotas in one local dashboard while Ruby Runtime performs a looping feather-fan quick change. Both meters show reported usage, reset countdowns, and the age of the latest reading. The act has a pause button and respects your reduced-motion setting.
+**An open-source usage dashboard for Claude Code and Codex.** See five-hour and weekly quotas, rate limits, and reset countdowns side by side as each provider reports them. Ruby Runtime performs a looping feather-fan quick change while you work. The show has a pause button and respects reduced motion.
 
 **Created by [Kevin Champlin](https://github.com/Kevinchamplin).**
+
+![Usage Cabaret with sample Claude Code and Codex usage meters beside Ruby Runtime's cabaret stage](docs/dashboard-preview.webp)
+
+*Screenshot with sample quota readings.*
 
 ## Start the dashboard
 
