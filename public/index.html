@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#120e16">
+  <title>Usage Cabaret</title>
+  <link rel="stylesheet" href="/style.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <div class="shell">
+    <header class="top">
+      <div class="identity"><span class="brand-mark" aria-hidden="true">✦</span><span>USAGE CABARET <i>/</i> AFTER HOURS</span></div>
+      <div class="connection"><span class="signal"></span><span id="connection" role="status">Connecting</span></div>
+    </header>
+    <main>
+      <div class="hero">
+        <div>
+          <p class="eyebrow"><span></span> THE LIVE USAGE LOUNGE</p>
+          <h1>Usage <em>Cabaret</em></h1>
+          <p class="sub">Two agents at work. One star on stage.</p>
+        </div>
+        <p class="clock" id="clock"></p>
+      </div>
+      <div class="layout">
+        <section class="meters" aria-label="AI usage">
+          <div class="section-label"><span>01 / THE METERS</span><span>SHARE OF QUOTA USED</span></div>
+          <article class="card claude">
+            <header><span class="provider-mark" aria-hidden="true">✳</span><div><h2>Claude</h2><p>Anthropic</p></div><span class="badge" id="claude-state">Connecting</span></header>
+            <div class="windows" id="claude-windows"></div>
+            <p class="source" id="claude-source">Waiting for a reading.</p>
+          </article>
+          <article class="card codex">
+            <header><span class="provider-mark" aria-hidden="true">⌘</span><div><h2>Codex</h2><p>OpenAI</p></div><span class="badge" id="codex-state">Connecting</span></header>
+            <div class="windows" id="codex-windows"></div>
+            <p class="source" id="codex-source">Waiting for a reading.</p>
+          </article>
+        </section>
+        <section class="show" aria-label="Cabaret stage">
+          <div class="section-label"><span>02 / THE STAGE</span><span>NO COVER CHARGE</span></div>
+          <div class="stage">
+            <div class="stage-sign" aria-hidden="true"><span>TONIGHT ONLY</span><strong>Ruby Runtime</strong></div>
+            <!-- STAGE_ART -->
+            <div class="stage-controls">
+              <span id="act" class="act">ACT I <i>/</i> FEATHER TEASE</span>
+              <button id="show-toggle" type="button" aria-pressed="false">Pause show</button>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer><span>LOCAL ONLY <i>/</i> CREATED BY KEVIN CHAMPLIN</span><span id="last-check">Waiting for the first check</span></footer>
+  </div>
+</body>
+</html>
